@@ -57,10 +57,23 @@ var midVal =  function(a, b, c){
     return 0;
 }
 var showString = function(a, b, c){
-    return "Jeg er skøn";
+    return String(a+" "+b+" "+c);
 }
 var reverseString = function(a, b, c){
-    return "skøn jeg er";
+    var splitA = a.split("")
+    var reverseA = splitA.reverse()
+    var joinA = reverseA.join("")
+
+    var splitB = b.split("")
+    var reverseB = splitB.reverse()
+    var joinB = reverseB.join("")
+
+    var splitC = c.split("")
+    var reverseC = splitC.reverse()
+    var joinC = reverseC.join("")
+
+
+    return joinC+""+joinB+""+;
 }
 var sortByAlphabet = function(a, b, c){
     return "er jeg lang";
