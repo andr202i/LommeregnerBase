@@ -68,23 +68,10 @@ var showString = function(a, b, c){
     return String(a+" "+b+" "+c);
 }
 var reverseString = function(a, b, c){
-    var splitA = a.split();
-    var reverseA = splitA.reverse();
-    var joinA = reverseA.join();
-
-    var splitB = b.split();
-    var reverseB = splitB.reverse();
-    var joinB = reverseB.join();
-
-    var splitC = c.split();
-    var reverseC = splitC.reverse();
-    var joinC = reverseC.join();
-
-    var newString = joinC+" "+joinB+" "+joinA
-    return newString;
+    return String(c+" "+b+" "+a);
 }
 var sortByAlphabet = function(a, b, c){
-    return "er jeg lang";
+    
 }
 var navneLængde = function(a, b, c){
     return 10;
