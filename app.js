@@ -95,8 +95,10 @@ var sortByAlphabet = function(a, b, c){
 var navneLængde = function(a, b, c){
     return 10;
 }
-var kampPoint = function(a, b, c){
-    return 0;
+var kampPoint = function(a){
+    if(a==V) {return 3}
+    if (a==U) {return 1}
+    if (a==L) {return 0}
 }
 /**
  * @param {number} height 
