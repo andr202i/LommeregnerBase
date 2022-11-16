@@ -25,7 +25,7 @@ var pressButton = function(action){
 }
 
 var add = function(a, b){
-    return a + b + c;
+    return a + b;
 }
 var subtract = function(a, b){
     return a - b;
@@ -122,4 +122,3 @@ var exactlyOne = function(b1, b2, b3){
 var exactlyTwo = function(b1, b2, b3){
     return false;
 }
-
