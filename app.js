@@ -25,7 +25,7 @@ var pressButton = function(action){
 }
 
 var add = function(a, b){
-    return a + b;
+    return a + b + c;
 }
 var subtract = function(a, b){
     return a - b;
