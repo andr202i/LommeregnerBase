@@ -68,20 +68,20 @@ var showString = function(a, b, c){
     return String(a+" "+b+" "+c);
 }
 var reverseString = function(a, b, c){
-    var splitA = a.split("")
-    var reverseA = splitA.reverse()
-    var joinA = reverseA.join("")
+    var splitA = a.split();
+    var reverseA = splitA.reverse();
+    var joinA = reverseA.join();
 
-    var splitB = b.split("")
-    var reverseB = splitB.reverse()
-    var joinB = reverseB.join("")
+    var splitB = b.split();
+    var reverseB = splitB.reverse();
+    var joinB = reverseB.join();
 
-    var splitC = c.split("")
-    var reverseC = splitC.reverse()
-    var joinC = reverseC.join("")
+    var splitC = c.split();
+    var reverseC = splitC.reverse();
+    var joinC = reverseC.join();
 
-
-    return joinC+""+joinB+""+;
+    var newString = joinC+" "+joinB+" "+joinA
+    return newString;
 }
 var sortByAlphabet = function(a, b, c){
     return "er jeg lang";
