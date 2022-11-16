@@ -28,10 +28,10 @@ var add = function(a, b){
     return a + b;
 }
 var subtract = function(a, b){
-    return 0;
+    return a - b;
 }
 var multiply = function(a, b){
-    return 0;
+    return a * b;
 }
 // skriv inhold til funk
 var diskriminant = function(a, b, c){
@@ -62,8 +62,14 @@ var maxVal =  function(a, b, c){
     else {return c}
 }
 var midVal =  function(a, b, c){
-    return 0;
+
+if(a<b && a>c) {return a}
+
+if (b<c && b>a){return b}
+
+    else {return c}
 }
+
 var showString = function(a, b, c){
     return String(a+" "+b+" "+c);
 }
@@ -76,8 +82,10 @@ var sortByAlphabet = function(a, b, c){
 var navneLængde = function(a, b, c){
     return 10;
 }
-var kampPoint = function(a, b, c){
-    return 0;
+var kampPoint = function(a){
+    if(a==V) {return 3}
+    if (a==U) {return 1}
+    if (a==L) {return 0}
 }
 /**
  * @param {number} height 
