@@ -69,6 +69,7 @@ if (b<c && b>a){return b}
 
     else {return c}
 }
+
 var showString = function(a, b, c){
     return "Jeg er skøn";
 }
